@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<style>
+    .bt{
+        margin-right: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .table-container {
+        margin: 0 auto;
+            width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+</style>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <form class="container-fluid justify-content-start">
+          <button class="btn btn-outline-success me-2 bt" type="button"><a href="index.html">Home</a></button>
+          <button class="btn btn-sm btn-outline-secondary bt" type="button"><a href="login.html">login</a></button>
+          <button class="btn btn-sm btn-outline-secondary bt" type="button"><a href="register.html">register</a></button>
+          <button class="btn btn-sm btn-outline-secondary bt" type="button"><a href="update.html">update</a></button>
+          <button class="btn btn-sm btn-outline-secondary bt" type="button"><a href="list.html">list</a></button>
+          <button class="btn btn-sm btn-outline-secondary bt" type="button"><a href="view.html">view</a></button>
+        </form>
+      </nav>
+      <div class="table-container">
+        <h4 class="text-center">Danh sách user</h4>
+        <table class="table table-bordered text-center">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>UPVH</td>
+                    <td>ATJW@gmail.com</td>
+                    <td>
+                        <a href="#">Edit</a> | 
+                        <a href="#">View</a> | 
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>IFUK</td>
+                    <td>KULB@gmail.com</td>
+                    <td>
+                        <a href="#">Edit</a> | 
+                        <a href="#">View</a> | 
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>DZZQ</td>
+                    <td>ERNB@gmail.com</td>
+                    <td>
+                        <a href="#">Edit</a> | 
+                        <a href="#">View</a> | 
+                        <a href="#">Delete</a>
+                    </td>
+                </tr>
+                <!-- Thêm các dòng khác tương tự -->
+            </tbody>
+        </table>
+        <nav>
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+</html>

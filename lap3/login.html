@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<style>
+    .bt{
+        margin-right: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .navpro{
+        margin: 0 auto;
+    }
+       
+    .login-container {
+            margin: 0 auto;
+            width: 350px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+</style>
+<body>
+    <nav class="navbar bg-body-tertiary navpro">
+        <form class="container-fluid justify-content-start">
+          <button class="btn btn-outline-success me-2 bt" type="button"><a href="index.html">Home</a></button>
+          <button class="btn btn-sm btn-outline-secondary bt" type="button"><a href="login.html">login</a></button>
+          <button class="btn btn-sm btn-outline-secondary bt" type="button"><a href="register.html">register</a></button>
+          <button class="btn btn-sm btn-outline-secondary bt" type="button"><a href="update.html">update</a></button>
+          <button class="btn btn-sm btn-outline-secondary bt" type="button"><a href="list.html">list</a></button>
+          <button class="btn btn-sm btn-outline-secondary bt" type="button"><a href="view.html">view</a></button>
+        </form>
+      </nav>
+      <div class="login-container">
+        <h4 class="text-center">Màn hình đăng nhập</h4>
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Username</label>
+                <input type="text" class="form-control" placeholder="Nhập username">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Mật khẩu</label>
+                <input type="password" class="form-control" placeholder="Nhập mật khẩu">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="rememberMe">
+                <label class="form-check-label" for="rememberMe">Ghi nhớ đăng nhập</label>
+            </div>
+            <div class="d-flex justify-content-between">
+                <a href="#" class="text-decoration-none">Quên mật khẩu</a>
+                <button type="submit" class="btn btn-primary">Đăng nhập</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+</html>
